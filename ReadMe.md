@@ -2,6 +2,8 @@
 
 A custom-built, Arduino-controlled laser engraver capable of cutting and engraving wood, leather, and acrylic. This system integrates hardware assembly, firmware configuration, and a complete software toolchain, developed as a 3rd-year Computer Engineering hardware project.
 
+---
+
 ## 📋 Table of Contents
 - [Features](#features)
 - [System Architecture](#system-architecture)
@@ -10,11 +12,15 @@ A custom-built, Arduino-controlled laser engraver capable of cutting and engravi
 - [Installation & Setup](#installation--setup)
 - [Safety Warnings](#safety-warnings)
 
+---
+
 ## ✨ Features
 * **Precision Routing:** Driven by NEMA 17 stepper motors for accurate XY-axis positioning.
 * **Firmware:** Runs on custom-configured GRBL for real-time G-code execution.
 * **Working Area:** [e.g., 300mm x 300mm]
 * **Laser Module:** [e.g., 5.5W Optical Power Diode Laser]
+
+---
 
 ## 🏗️ System Architecture
 
@@ -24,7 +30,10 @@ A custom-built, Arduino-controlled laser engraver capable of cutting and engravi
 * **Firmware:** GRBL v1.1.
 * **Communication:** Serial via USB.
 
+---
+
 ## 🛒 Bill of Materials (BoM)
+
 | Component | Quantity | Notes |
 | :--- | :---: | :--- |
 | Arduino Uno | 1 | Main microcontroller |
@@ -36,10 +45,14 @@ A custom-built, Arduino-controlled laser engraver capable of cutting and engravi
 | Aluminum Extrusions | Lot | V-slot 2020/2040 for the frame |
 | GT2 Timing Belts & Pulleys | Lot | For precision axis movement |
 
+---
+
 ## 💻 Software Toolchain
 1. **Design:** Inkscape / AutoCAD (Vector creation)
 2. **CAM / G-Code Generation:** LaserGRBL or LightBurn
 3. **Sender:** Universal G-Code Sender (UGS)
+
+---
 
 ## 🚀 Installation & Setup
 ### Cloning the Repository
@@ -73,5 +86,6 @@ READ BEFORE OPERATING:
 
 - Fire Hazard: Never leave an active laser unattended. Keep a fire extinguisher nearby.
 
+---
 
 > Documented and built by John Ramil Mapatac
