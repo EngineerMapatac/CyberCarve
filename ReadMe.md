@@ -5,13 +5,12 @@ A custom-built, Arduino-controlled laser engraver capable of cutting and engravi
 ---
 
 ## 📋 Table of Contents
-- [Features](#features)
-- [System Architecture](#system-architecture)
-- [Bill of Materials (BoM)](#bill-of-materials-bom)
-- [Software Toolchain](#software-toolchain)
-- [Installation & Setup](#installation--setup)
-- [Safety Warnings](#safety-warnings)
-
+- [Features](#-features)
+- [System Architecture](#️-system-architecture)
+- [Bill of Materials (BoM)](#-bill-of-materials-bom)
+- [Software Toolchain](#-software-toolchain)
+- [Installation & Setup](#-installation--setup)
+- [Safety Warnings](#️-safety-warnings)
 ---
 
 ## ✨ Features
