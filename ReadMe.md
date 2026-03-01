@@ -75,6 +75,12 @@ cd CyberCarve
 
 ---
 
+## Calibration & Configuration
+After flashing the firmware, you need to set up the stepper motor resolution and laser power limits. 
+Please refer to the [GRBL Configuration Guide](docs/grbl_config.md) for the exact console commands.
+
+---
+
 ## ⚠️ Safety Warnings
 
 READ BEFORE OPERATING:
